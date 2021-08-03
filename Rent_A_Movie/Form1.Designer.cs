@@ -1,4 +1,4 @@
-﻿namespace Rent_A_Movie
+namespace Rent_A_Movie
 {
     partial class Form1
     {
@@ -115,7 +115,7 @@
             this.tabPage1.Controls.Add(this.label8);
             this.tabPage1.Location = new System.Drawing.Point(4, 22);
             this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(952, 231);
             this.tabPage1.TabIndex = 0;
             this.tabPage1.Text = "Movies";
@@ -145,10 +145,10 @@
             // tabPage2
             // 
             this.tabPage2.Controls.Add(this.DGVCustomers);
-            this.tabPage2.Location = new System.Drawing.Point(4, 27);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.tabPage2.Size = new System.Drawing.Size(952, 226);
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(952, 231);
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Customers";
             this.tabPage2.UseVisualStyleBackColor = true;
@@ -161,7 +161,7 @@
             this.DGVCustomers.Location = new System.Drawing.Point(3, 3);
             this.DGVCustomers.Name = "DGVCustomers";
             this.DGVCustomers.RowHeadersWidth = 51;
-            this.DGVCustomers.Size = new System.Drawing.Size(946, 220);
+            this.DGVCustomers.Size = new System.Drawing.Size(946, 225);
             this.DGVCustomers.TabIndex = 1;
             this.DGVCustomers.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVCustomers_CellContentClick);
             this.DGVCustomers.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DGVCustomers_CellContentClick);
@@ -171,7 +171,7 @@
             this.tabPage3.Controls.Add(this.DGVMoviesRented);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
-            this.tabPage3.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(952, 231);
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "MoviesRented";
@@ -195,7 +195,7 @@
             this.tabPage4.Controls.Add(this.DGVTopCustomers);
             this.tabPage4.Location = new System.Drawing.Point(4, 22);
             this.tabPage4.Name = "tabPage4";
-            this.tabPage4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(952, 231);
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "TopCustomers";
@@ -217,7 +217,7 @@
             this.tabPage5.Controls.Add(this.DGVTopMovies);
             this.tabPage5.Location = new System.Drawing.Point(4, 22);
             this.tabPage5.Name = "tabPage5";
-            this.tabPage5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
+            this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(952, 231);
             this.tabPage5.TabIndex = 4;
             this.tabPage5.Text = "TopMovies";
@@ -362,6 +362,7 @@
             // 
             // btnAddMovie
             // 
+            this.btnAddMovie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnAddMovie.Location = new System.Drawing.Point(409, 82);
             this.btnAddMovie.Name = "btnAddMovie";
             this.btnAddMovie.Size = new System.Drawing.Size(75, 23);
@@ -372,6 +373,7 @@
             // 
             // btnUpdateMovie
             // 
+            this.btnUpdateMovie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnUpdateMovie.Location = new System.Drawing.Point(283, 82);
             this.btnUpdateMovie.Name = "btnUpdateMovie";
             this.btnUpdateMovie.Size = new System.Drawing.Size(106, 23);
@@ -382,6 +384,7 @@
             // 
             // btnDeleteMovie
             // 
+            this.btnDeleteMovie.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnDeleteMovie.Location = new System.Drawing.Point(191, 82);
             this.btnDeleteMovie.Name = "btnDeleteMovie";
             this.btnDeleteMovie.Size = new System.Drawing.Size(86, 23);
@@ -469,6 +472,7 @@
             // 
             // btnCheckOut
             // 
+            this.btnCheckOut.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnCheckOut.Location = new System.Drawing.Point(53, 57);
             this.btnCheckOut.Name = "btnCheckOut";
             this.btnCheckOut.Size = new System.Drawing.Size(75, 23);
@@ -479,6 +483,7 @@
             // 
             // btnReturn
             // 
+            this.btnReturn.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnReturn.Location = new System.Drawing.Point(230, 57);
             this.btnReturn.Name = "btnReturn";
             this.btnReturn.Size = new System.Drawing.Size(75, 23);
